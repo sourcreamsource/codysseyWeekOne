@@ -1,5 +1,13 @@
 # 🟩 12. Practice - `docker hello-world`  
 
+## 📋 Contents  
+1. `docker run hello-world` 실행  
+
+
+<br><br>
+
+## 🟢 1. `docker run hello-world` 실행  
+
 - 아래 과정을 한번에 실행하여 최종 컨테이너 시작까지 되는 과정을 run 명령어 하나로 할 수 있습니다.  
     1. docker image를 pull 받는다.  (docker pull ~)  
     2. pull받은 hello-world 이미지로 container를 만든다.  (docker create ~)  
@@ -40,6 +48,5 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/  
 
 ```
-
 
 

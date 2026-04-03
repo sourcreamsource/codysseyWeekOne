@@ -1,14 +1,15 @@
 # 🟩 11. docker basic  
 
 ## 📋 Contents  
-1. docker cli image 관리  
-2. docker cli container 관리  
-3. foreground execute  
+1. Docker CLI Commands Flow  
+   1-1. docker cli image 관리  
+   1-2. docker cli container 관리  
+   1-3. foreground execute  
 
 
-## 🟢 4. Docker CLI Commands Flow  
+## 🟢 1. Docker CLI Commands Flow  
 
-### 🟡 1. [docker cli] Management the **`IMAGE`**  
+### 🟡 1-1. [docker cli] Management the **`IMAGE`**  
 - Docker Image Search  
     - docker search <image 명칭>  
 
@@ -95,7 +96,7 @@
                 9502cf9fe0e8   hello-world   "/hello"   12 seconds ago   Created             basic  
         ```
 
-### 🟡 2. [docker cli] Management the **`CONTAINER`**  
+### 🟡 1-2. [docker cli] Management the **`CONTAINER`**  
 - Watch the **Runing Container List**  
     - (참고: docker container ls)  
     - docker ps  (ps = process status)  
@@ -157,7 +158,6 @@
         ```
 
 
-### 🟡 3. [docker cli] Foreground Execute  
+### 🟡 1-3. [docker cli] Foreground Execute  
 - docker run <image 명칭>  
     - 설명: image download + container create + container start를 한번에 해준다.  
-
