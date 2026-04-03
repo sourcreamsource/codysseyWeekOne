@@ -7,6 +7,7 @@
 4. Git 초기 설정 명령 표  
 5. 자주 쓰는 Git 작업 흐름  
 6. 예시 터미널 실습 로그  
+7. 나의 local 작업 폴더를 github에 publish하기  
 
 
 
@@ -199,6 +200,30 @@ Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/sourcreamsource/codysseyWeekOne.git  
  * [new branch]      main -> main  
 ```
+
+
+## 🟢 7. 나의 local 작업 폴더를 github에 publish하기  
+
+### 🟡 원격 저장소 생성  
+- Github 가입 및 New Repository 생성  
+    - New Repository 생성 시 나의 작업 폴더 이름과 동일한 이름으로 생성하여 통일하겠음.  
+- 해당 Repository `<https 주소>` 복사해오기 (SSH 설정하였다면 SSH 주소를 사용해도 무관)  
+    - https://github.com/username/작업폴더이름.git  
+
+### 🟡 로컬 저장소 설정  
+- git init  
+- git remote add origin `<https 주소>`  
+    - https://github.com/username/작업폴더이름.git  
+- 확인  
+    - git remote -v  
+
+
+### 🟡 Github로 Push  
+- git add README.md  
+- git commit -am "docs: 기술문서 작성완료"  
+    - (여기서 -am은 add와 commit을 동시에 하겠다는 의미)  
+- git log  
+
 
 
 
