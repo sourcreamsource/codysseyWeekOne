@@ -1,4 +1,4 @@
-# 🟩 80. Troubleshooting - 컨테이너 IP로 직접 접속 실패
+# 🟩 80. Troubleshooting - 컨테이너 IP로 직접 접속 실패  
 
 ## 📋 Contents  
 1. 문제 상황  
@@ -12,15 +12,15 @@
 <br><br>
 
 ## 🟢 1. 문제 상황  
-- nginx 컨테이너를 실행한 뒤 `docker inspect` 로 확인한 컨테이너 IP(`172.17.x.x`)에 `curl` 로 접속했는데 응답이 오지 않았다.  
+- nginx 컨테이너를 실행한 뒤 `docker inspect` 로 확인한 컨테이너 IP(`http://localhost:8080`)에 `curl` 로 접속했는데 응답이 오지 않았다.  
 
 <br>
 
 ### 🟡 1-1. 예시 상황  
 ```bash
-curl 172.17.0.2
+curl http://localhost:8080  
 
-curl: (28) Failed to connect to 172.17.0.2 port 80
+curl: (28) Failed to connect to http://localhost:8080 port 80  
 ```
 
 
@@ -28,8 +28,7 @@ curl: (28) Failed to connect to 172.17.0.2 port 80
 <br><br>
 
 ## 🟢 2. 원인 가설  
-- 컨테이너 내부 브리지 네트워크 IP는 내 Mac 호스트에서 바로 접근되지 않을 수 있다.  
-- macOS + Docker Desktop / OrbStack 환경에서는 Docker가 내부 Linux VM 안에서 동작하므로, 리눅스 호스트처럼 바로 붙는 방식과 다를 수 있다.  
+- macOS + Docker Desktop / OrbStack 환경에서는 Docker가 내부 Linux VM 안에서 동작하므로, 리눅스 호스트처럼 바로 붙는 방식과 다를 수도 있을 것이다.  
 
 
 
@@ -48,8 +47,8 @@ curl: (28) Failed to connect to 172.17.0.2 port 80
 - 포트 매핑 옵션을 추가해서 다시 실행했다.  
 
 ```bash
-docker run -d --name webserver -p 8080:80 nginx:latest
-curl http://localhost:8080
+docker run -d --name webserver -p 8080:80 nginx:latest  
+curl http://localhost:8080  
 ```
 
 - 이후 `localhost:8080` 으로 정상 응답을 확인했다.  
