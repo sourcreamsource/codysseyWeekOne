@@ -85,51 +85,6 @@
 - [82_github_연동증거.md](./82_github_연동증거.md)  
 
 
-
-<br><br>
-
-## 🔍 요구사항 대응 방법  
-
-### 1. 터미널 조작 로그  
-- 파일/디렉토리 생성, 이동, 복사, 삭제, 내용 확인은 관련 실습 문서에 기록한다.  
-- 특히 컨테이너 내부 파일 조작은 [16_docker_Practice_directory.md](./16_docker_Practice_directory.md)에서 확인할 수 있다.  
-
-### 2. 권한 변경 실습  
-- 파일 권한과 디렉토리 권한 의미 및 예시는 [04_rwx_권한변경실습.md](./04_rwx_권한변경실습.md)에 정리했다.  
-
-### 3. Docker 설치 및 기본 점검  
-- Docker 개념과 설치/점검은 [10_docker_setting.md](./10_docker_setting.md)에 정리했다.  
-- Docker CLI 기본 명령은 [11_docker_basic.md](./11_docker_basic.md)에서 확인할 수 있다.  
-
-### 4. 컨테이너 실행 실습  
-- hello-world 실행은 [12_docker_Practice_HelloWorld.md](./12_docker_Practice_HelloWorld.md)  
-- nginx 실행 및 포트매핑은 [14_docker_Practice_nginx.md](./14_docker_Practice_nginx.md)  
-- 컨테이너 내부 진입은 [15_docker_Practice_execute.md](./15_docker_Practice_execute.md)  
-
-### 5. Dockerfile 기반 커스텀 이미지  
-- Dockerfile 핵심 명령은 [31_dockerfile_arrange.md](./31_dockerfile_arrange.md)  
-- 실제 Dockerfile 실습은 [32_dockerfile_practice.md](./32_dockerfile_practice.md)  
-- 현업형 예시는 [33_dockerfile_example.md](./33_dockerfile_example.md)  
-
-### 6. 포트 매핑 / 저장소 / 영속성  
-- 데이터 제어 개념 비교는 [40_docker_data_control.md](./40_docker_data_control.md)  
-- image layer / writable layer는 [41_docker_container_layer.md](./41_docker_container_layer.md)  
-- 외부 저장 필요성은 [42_docker_container_storage.md](./42_docker_container_storage.md)  
-- Docker volume은 [44_docker_volume.md](./44_docker_volume.md)  
-- bind mount는 [45_docker_bindmount.md](./45_docker_bindmount.md)  
-
-### 7. Docker Compose  
-- Docker Compose 개념부터 실습까지는 [50_docker_compose_개념.md](./50_docker_compose_개념.md)부터 [55_docker_compose_example.md](./55_docker_compose_example.md)까지 순서대로 학습할 수 있다.  
-
-### 8. 트러블슈팅  
-- 컨테이너 IP 직접 접속 실패 사례는 [80_troubleshooting_docker_ip.md](./80_troubleshooting_docker_ip.md)  
-- 컨테이너 삭제 후 데이터 소실 사례는 [81_troubleshooting_container_data.md](./81_troubleshooting_container_data.md)  
-
-### 9. GitHub 연동 증거  
-- Git 설정, 원격 저장소 연결, 브랜치 추적 상태는 [82_github_연동증거.md](./82_github_연동증거.md)에서 확인할 수 있다.  
-
-
-
 <br><br>
 
 ## 🧠 이번 과제를 통해 설명할 수 있어야 하는 것  
