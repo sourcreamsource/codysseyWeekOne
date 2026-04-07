@@ -39,15 +39,26 @@
 
 ## 📋 Contents  
 
-### 1. 요구사항 / 분석  
+### 🟡 1. 요구사항 / 분석  
 - [01_codyssey_요구사항.md](./01_codyssey_요구사항.md)  
 - [02_codyssey_요구사항분석.md](./02_codyssey_요구사항분석.md)  
 
-### 2. Linux / Git 기초  
+### 🟡 2. Linux 권한 변경 실습  
 - [04_rwx_권한변경실습.md](./04_rwx_권한변경실습.md)  
+
+
+### 🟡 3. Git과 Github  
+
 - [06_git.md](./06_git.md)  
 
-### 3. Docker 기초  
+- [07_github_연동증거.md](./07_github_연동증거.md)  
+
+- [08_github_SSH.md](./08_github_SSH.md)  
+
+
+
+
+### 🟡 4. Docker 기초  
 - [10_docker_setting.md](./10_docker_setting.md)  
 - [11_docker_basic.md](./11_docker_basic.md)  
 - [12_docker_Practice_HelloWorld.md](./12_docker_Practice_HelloWorld.md)  
@@ -57,19 +68,19 @@
 - [16_docker_Practice_directory.md](./16_docker_Practice_directory.md)  
 - [17_docker_Practice_status.md](./17_docker_Practice_status.md)  
 
-### 4. Dockerfile  
+### 🟡 5. Dockerfile  
 - [31_dockerfile_arrange.md](./31_dockerfile_arrange.md)  
 - [32_dockerfile_practice.md](./32_dockerfile_practice.md)  
 - [33_dockerfile_example.md](./33_dockerfile_example.md)  
 
-### 5. Docker 데이터 관리  
+### 🟡 6. Docker 데이터 관리  
 - [40_docker_data_control.md](./40_docker_data_control.md)  
 - [41_docker_container_layer.md](./41_docker_container_layer.md)  
 - [42_docker_container_storage.md](./42_docker_container_storage.md)  
 - [44_docker_volume.md](./44_docker_volume.md)  
 - [45_docker_bindmount.md](./45_docker_bindmount.md)  
 
-### 6. Docker Compose  
+### 🟡 7. Docker Compose  
 - [50_docker_compose_개념.md](./50_docker_compose_개념.md)  
 - [51_docker_compose_구조.md](./51_docker_compose_구조.md)  
 - [52_docker_compose_명령어.md](./52_docker_compose_명령어.md)  
@@ -77,12 +88,12 @@
 - [54_docker_compose_practice_multi.md](./54_docker_compose_practice_multi.md)  
 - [55_docker_compose_example.md](./55_docker_compose_example.md)  
 
-### 7. 트러블슈팅  
+### 🟡 8. 포트 확인  
+- [60_port_search.md](./60_port_search.md)  
+
+### 🟡 9. 트러블슈팅  
 - [80_troubleshooting_docker_ip.md](./80_troubleshooting_docker_ip.md)  
 - [81_troubleshooting_container_data.md](./81_troubleshooting_container_data.md)  
-
-### 8. GitHub 연동 증거  
-- [82_github_연동증거.md](./82_github_연동증거.md)  
 
 
 <br><br>
