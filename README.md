@@ -38,10 +38,7 @@
 <br><br>
 
 ## 📋 Contents  
-1. Docs  
-2. Playground  
 
-<br>
 
 ### 🟡 1. Docs  
 
