@@ -36,14 +36,14 @@
 ## 🟢 3. Docker Engine Start  
 - GUI를 사용하지 않고, CLI만을 통해 접근 및 제어할 것입니다.  
 
-#### 3-1. orbstack 일 경우.  
+#### 3-1. Docker Desktop 일 경우.  
 ```bash 
 docker desktop start  
 docker desktop stop  
 docker desktop status  
 ```
 
-#### 3-2. Docker Desktop 일 경우.  
+#### 3-2. orbstack 일 경우.  
 ```bash
 orb start  
 orb stop  
