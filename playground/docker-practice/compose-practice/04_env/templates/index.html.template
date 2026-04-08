@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Compose Env Practice</title>
+  </head>
+  <body>
+    <h1>compose env practice</h1>
+    <p>mode=${APP_MODE}</p>
+    <p>port=${APP_PORT}</p>
+  </body>
+</html>

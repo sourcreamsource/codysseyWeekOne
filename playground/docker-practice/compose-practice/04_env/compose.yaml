@@ -1,0 +1,16 @@
+services:
+  web:
+    image: nginx:1.27-alpine
+    container_name: compose-env-web
+    environment:
+      APP_PORT: ${APP_PORT}
+      APP_MODE: ${APP_MODE}
+    ports:
+      - "${HOST_PORT}:${APP_PORT}"
+    volumes:
+      - ./templates/default.conf.template:/templates/default.conf.template:ro
+      - ./templates/index.html.template:/templates/index.html.template:ro
+    command:
+      - /bin/sh
+      - -c
+      - envsubst '$$APP_PORT' < /templates/default.conf.template > /etc/nginx/conf.d/default.conf && envsubst '$$APP_MODE $$APP_PORT' < /templates/index.html.template > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'
